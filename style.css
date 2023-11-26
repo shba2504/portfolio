@@ -1,0 +1,9 @@
+@media() {
+}
+#nav-bar {
+  position: fixed;
+}
+
+#welcome-section {
+  height: 100vw;
+}
