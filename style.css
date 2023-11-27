@@ -1,8 +1,28 @@
 html {
   background-color: black;
-  color: gold;
+  color: rgb(216, 160, 18);
 }
 
 #navbar {
   position: top;
+  text-align: right;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  padding-right: 3%;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(216, 160, 18);
+}
+
+#welcome {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
 }
