@@ -1,9 +1,8 @@
-@media() {
-}
-#navbar {
-  position: fixed;
+html {
+  background-color: black;
+  color: gold;
 }
 
-#welcome-section {
-  height: 100vw;
+#navbar {
+  position: top;
 }
