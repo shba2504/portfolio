@@ -1,37 +1,75 @@
-html {
+body {
   background-color: black;
-  color: rgb(216, 160, 18);
+  color: white;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: ". nav" "sidebar header" "sidebar header" ". main" "footer footer";
+}
+
+.nav {
+  grid-area: nav;
+  text-align: right;
+  padding-top: 1.5em;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.header,
+.content,
+.nav {
+  background-color: white;
+  color: black;
+}
+.header {
+  grid-area: header;
+  padding: 5em;
+}
+
+.content {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 #navbar {
-  position: top;
-  text-align: right;
-  word-spacing: 10px;
-  font-weight: bold;
-  font-family: Raleway, sans-serif;
+  word-spacing: 8px;
   padding-right: 3%;
   letter-spacing: 3px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(216, 160, 18);
+  color: black;
 }
 
-#welcome {
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  letter-spacing: 3px;
-  position: relative;
-}
-
-h1 {
-  font-weight: bold;
+a:hover {
+  color: gold;
 }
 
 img {
-  width: 20%;
-  height: 50%;
-  position: absolute;
+  width: 80%;
+  height: 100%;
   object-fit: cover;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+h1,
+p {
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
