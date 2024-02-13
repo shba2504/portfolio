@@ -15,8 +15,8 @@ body {
 
 .nav {
   grid-area: nav;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin-left: 5em;
 }
 
@@ -91,7 +91,6 @@ a:hover {
 
 img {
   width: 85%;
-
   object-fit: cover;
   padding-top: 3em;
   padding-bottom: 3em;
