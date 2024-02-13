@@ -7,7 +7,7 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-areas: ". nav" "sidebar header" "sidebar header" ". main" "main2 main3" "footer footer";
+  grid-template-areas: ". nav" "sidebar header" "sidebar header" ". main" "main2 main3" "main4 main5" "footer footer";
 }
 
 .nav {
@@ -44,10 +44,24 @@ body {
 
 .content2 {
   grid-area: main2;
+  padding: 3em;
 }
 
 .content3 {
   grid-area: main3;
+  padding: 3em;
+}
+
+.content4 {
+  grid-area: main4;
+  padding: 3em;
+}
+
+.content5 {
+  grid-area: main5;
+  padding: 3em;
+  background-color: white;
+  color: black;
 }
 
 .footer {
@@ -88,8 +102,11 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   text-align: center;
+  letter-spacing: 2px;
 }
 
 p:nth-of-type(2) {
@@ -98,4 +115,8 @@ p:nth-of-type(2) {
 
 p:nth-of-type(3) {
   line-height: 1.5em;
+}
+
+hr {
+  width: 50%;
 }
