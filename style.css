@@ -1,5 +1,8 @@
 body {
   background-color: black;
+  font-family: Alata, Georgia, "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  font-size: 20px;
   color: white;
   margin: 0;
 }
@@ -7,20 +10,18 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-areas: ". nav" "sidebar header" "sidebar header" ". main" "main2 main3" "main4 main5" "footer footer";
+  grid-template-areas: ". nav" "sidebar header" "sidebar ." ". main" "main2 main3" "main4 main5" "footer footer";
 }
 
 .nav {
   grid-area: nav;
-  text-align: right;
   padding-top: 1.5em;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   margin-left: 5em;
 }
 
 .sidebar {
   grid-area: sidebar;
-  padding: 5em 0em 5em 0em;
 }
 
 .header,
@@ -33,13 +34,13 @@ body {
 
 .header {
   grid-area: header;
-  padding: 10em 5em 10em 5em;
+  padding: 6em 5em 10em 5em;
 }
 
 .content {
   grid-area: main;
   margin-left: 5em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .content2 {
@@ -72,6 +73,11 @@ body {
   word-spacing: 8px;
   padding-right: 3%;
   letter-spacing: 3px;
+  text-align: right;
+}
+
+#profile-links {
+  font-size: 20px;
 }
 
 a {
@@ -119,4 +125,29 @@ p:nth-of-type(3) {
 
 hr {
   width: 50%;
+}
+
+.tech-icons {
+  font-size: 80px;
+}
+
+.tech-stack {
+  text-align: left;
+}
+
+button {
+  background-color: gold;
+  font-family: Alata, Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
