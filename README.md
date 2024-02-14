@@ -1,3 +1,3 @@
 # portfolio
 
-Creating a personal website/portfolio
+My personal portfolio website.
