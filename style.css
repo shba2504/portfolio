@@ -125,6 +125,10 @@ img {
   padding-bottom: 3em;
 }
 
+.content5 > img {
+  justify-content: center;
+}
+
 h1,
 p {
   letter-spacing: 2px;
