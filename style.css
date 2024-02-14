@@ -10,11 +10,15 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-areas: ". nav" "sidebar header" "sidebar ." ". main" "main2 main3" "main4 main5" "main6 main6" "footer footer";
+  grid-template-areas: "nav1 nav2" "sidebar header" "sidebar ." ". main" "main2 main3" "main4 main5" "main6 main6" "footer footer";
+}
+
+.social-icons {
+  grid-area: nav1;
 }
 
 .nav {
-  grid-area: nav;
+  grid-area: nav2;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: 5em;
