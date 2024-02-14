@@ -10,17 +10,11 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-areas: "nav1 nav2" "sidebar header" "sidebar ." ". main" "main2 main3" "main4 main5" "main6 main6" "footer footer";
-}
-
-.social-icons {
-  grid-area: nav1;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  grid-template-areas: ". nav" "sidebar header" "sidebar ." ". main" "main2 main3" "main4 main5" "main6 main6" "footer footer";
 }
 
 .nav {
-  grid-area: nav2;
+  grid-area: nav;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: 5em;
@@ -103,6 +97,8 @@ footer {
 }
 
 #navbar {
+  display: flex;
+  justify-content: space-between;
   word-spacing: 8px;
   padding-right: 3%;
   letter-spacing: 3px;
