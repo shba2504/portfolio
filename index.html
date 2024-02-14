@@ -138,28 +138,47 @@
         </div>
         <div class="content5">
           <h2>Full Development</h2>
-          <hr/>
-          <img src="Images/preview.png" alt="preview of homepage of restaurant website"/>
-          <a href="#" target="_blank">
-            <button role="link to live demo">Live Demo</button>
-          </a>
-          <a
-            href="https://github.com/shba2504/sweetandsavory.git"
-            target="_blank"
-          >
-            <button role="link to project in GitHub">Code</button>
-          </a>
-          <p>Tech stack used: React with Vite and Node.js.</p>
+          <hr />
+          <img src="Images/preview.png" alt="preview of homepage of restaurant website" class="preview"/>
+          <div class="btns">
+            <div>
+              <a href="#" target="_blank">
+                <button role="link to live demo">Live Demo</button>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/shba2504/sweetandsavory.git"
+                target="_blank"
+              >
+                <button role="link to project in GitHub">Code</button>
+              </a>
+            </div>
+          </div>
+          <p>Tech stack: React with Vite and Node.js.</p>
           <br/>
           <p>The goal of the project was to highlight my React and Javascript skills. So, nearly every page features some interactivity and showcases the usefulness of component-based programming with React. My intention is to add an e-commerce feature soon to the app via online orders.</p>
           <br/>
           <p> Given the numerous images on the app, I opted for Vite instead of the traditional create-React-app method because of Vite's fast loading times.</p> 
-          <br/>
         </div>
         <!-- Contact -->
         <div id="contact" class="content6">
           <h2>Interested? <span>Let's Chat!</span></h2>
-          <p>shba2504@gmail.com</p>
+          <form>
+            <div>
+              <label id="firstName">First Name:</label>
+              <input type="text" name="firstName" id="firstName" required/>
+            </div>
+            <div>
+              <label id="lastName">Last Name:</label>
+              <input type="text" name="lastName" id="lastName" required/>
+            </div>
+          <div>
+            <label id="email">Email Address:</label>
+            <input type="email" name="email" id="email" required/>
+          </div>
+          <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </main>
