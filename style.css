@@ -34,7 +34,7 @@ body {
 
 .header {
   grid-area: header;
-  padding: 6em 5em 11em 5em;
+  padding: 6em 5em 10em 5em;
 }
 
 .content {
