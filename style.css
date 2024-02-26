@@ -95,6 +95,7 @@ body {
   text-align: center;
   padding-top: 0;
 }
+
 footer {
   grid-area: footer;
   text-align: center;
@@ -199,8 +200,8 @@ button {
 }
 
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 h2 > span {
