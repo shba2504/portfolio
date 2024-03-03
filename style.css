@@ -168,6 +168,8 @@ hr {
 
 .tech-icons {
   font-size: 80px;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech-stack {
