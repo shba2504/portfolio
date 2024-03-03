@@ -88,7 +88,6 @@ body {
   font-size: 30px;
   letter-spacing: 3px;
   padding: 2em 1.5em 2em 2em;
-  padding-bottom: 0;
 }
 
 .content6 > p {
@@ -298,7 +297,19 @@ input {
     padding: 3em;
   }
 
-  input {
+  .input {
     width: 20em;
+  }
+
+  .wrapper {
+    overflow-x: hidden;
+  }
+
+  .content6 > h2 {
+    padding: 0 1.5em 0em 1em;
+  }
+
+  button {
+    width: 8rem;
   }
 }
