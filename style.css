@@ -231,31 +231,6 @@ input {
   margin: 1em;
 }
 
-/* Mobile Menu */
-
-.hamburger-button {
-  background-color: white;
-  color: black;
-  font-size: 40px;
-  cursor: pointer;
-  display: none;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.nav-links {
-  display: none;
-  background-color: black;
-  color: white;
-  margin: 1rem;
-}
-.nav-links a {
-  display: block;
-  padding: 15px;
-  color: white;
-  text-decoration: none;
-}
-
 @media (max-width: 1050px) {
   .wrapper,
   form {
@@ -320,17 +295,9 @@ input {
     font-size: 16px;
   }
 
-  .hamburger-button {
-    display: flex;
-    padding: 0;
-  }
 
   .header {
     padding: 1rem 2em;
-  }
-
-  .profile-links, .navbar-links {
-    display: none;
   }
 
   .content,
